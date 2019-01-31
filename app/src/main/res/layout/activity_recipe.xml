@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.janetaa.healthyrecipes.Recipe">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="40sp"
+            tools:text="@string/txtTitle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="TextView"
+            android:textSize="30sp"
+            tools:text="@string/txtIngredients"
+            android:layout_below="@+id/txtTitle2"
+            android:layout_alignLeft="@+id/txtTitle2"
+            android:layout_alignStart="@+id/txtTitle2" />
+
+        <TextView
+            android:id="@+id/txtItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            tools:text="@string/txtItem1"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/txtIngredients"
+            android:layout_alignLeft="@+id/txtMix"
+            android:layout_alignStart="@+id/txtMix" />
+
+        <TextView
+            android:id="@+id/txtItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            tools:text="@string/txtItem2"
+            android:layout_below="@+id/txtItem1"
+            android:layout_alignLeft="@+id/txtItem1"
+            android:layout_alignStart="@+id/txtItem1" />
+
+        <TextView
+            android:id="@+id/txtItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            tools:text="@string/txtItem3"
+            android:layout_below="@+id/txtItem2"
+            android:layout_alignLeft="@+id/txtItem2"
+            android:layout_alignStart="@+id/txtItem2" />
+
+        <TextView
+            android:id="@+id/txtItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            tools:text="@string/txtItem4"
+            android:layout_below="@+id/txtItem3"
+            android:layout_alignLeft="@+id/txtItem3"
+            android:layout_alignStart="@+id/txtItem3" />
+
+        <TextView
+            android:id="@+id/txtDirections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="30sp"
+            tools:text="@string/txtDirections"
+            android:layout_below="@+id/txtItem4"
+            android:layout_alignLeft="@+id/txtIngredients"
+            android:layout_alignStart="@+id/txtIngredients"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:id="@+id/txtMix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            tools:text="@string/txtMix"
+            android:layout_below="@+id/txtDirections"
+            android:layout_alignLeft="@+id/txtDirections"
+            android:layout_alignStart="@+id/txtDirections"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
